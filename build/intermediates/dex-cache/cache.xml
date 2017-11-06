@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="84b3b7904d2198bdd4d3d343c6725618c6d469e3">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ff29ffc16399c10e84d3dad02c5e78136668b4b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/ed50582468f58df0a9147887cd97db6d48483135/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_322a9cea026ca9f2856d78b5565b36d50408888f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/5a17d2a97f1a928405be915f0756bd32b1436e50/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_297b3b9d7be499a94a46f629bad1c5853fd643f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/e2cf791ef20f4afabb3cb6eced4da5a5516f1e1e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a642b59187c1d84a0163e35809fdc00516e4fbf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/55e7ed4fe46c020b622ced88b8ad601d9bd9747f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b727a73f54a1411984ab2443f741c0e76fe1f92d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/5275a563dcdd9a8d96116bd36af669f7f9ca6b1f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d5252e4a19666bdab268160413e0f791d68e4ab8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_3be6df332ae75fc5fef29e8af494003b7da32447/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/df331b7e15dfbf54161ad64387c0601f8aefb808/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_15e598b029c994834bb9f2a0353cfd145ff7f03f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/dbedde686d0a5977875663b7ac8f3b969f047099/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a73601d546f155fbd902c726bd3fe5df05c98be4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/a17c3070cb52f1b8495481f2624d8e5f43a02870/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f750f4ebcd27a46e9180c0584b854e9a3ef60efc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/80f08118660818daf5674a4e88e7737ac29bfebb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6fd95de51e981dd66c94e106aab0dedf78242997/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.android/build-cache/576de83550645eff854f9bc0d6e6fb0ae5fcd1ee/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8a1793acc4c7350eb4bf78299369fcef47bda24d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_634844db96b78f167a7bf19fa5b0b6119fceab60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/italo/Documentos/Alura/Android/Agenda_Alura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_96eecd679d3e0378f94e42c1ccb0f2c28679b01c/classes.dex" />
+    </item>
+
+</items>
