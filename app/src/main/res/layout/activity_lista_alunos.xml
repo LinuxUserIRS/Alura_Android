@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,10 +9,25 @@
     <ListView
         android:id="@+id/lista_alunos"
         android:layout_width="368dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="8dp">
 
     </ListView>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/addAluno"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:elevation="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/fundo_do_botao"
+        android:stateListAnimator="@null"/>
+
+</RelativeLayout>
