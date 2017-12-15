@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Agenda_Alura</string>
+
+    <string-array name='arrayGenero'>
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Outro</item>
+    </string-array>
 </resources>

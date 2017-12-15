@@ -7,7 +7,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class FormActivity extends AppCompatActivity {
@@ -16,6 +18,11 @@ public class FormActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
+
+        Spinner spinnerGenero = (Spinner) findViewById(R.id.spinnerGenero);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.arrayGenero, R.layout.support_simple_spinner_dropdown_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerGenero.setAdapter(adapter);
     }
 
     @Override
@@ -36,4 +43,6 @@ public class FormActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
