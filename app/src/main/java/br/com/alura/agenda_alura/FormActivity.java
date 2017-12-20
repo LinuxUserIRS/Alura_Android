@@ -9,15 +9,22 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import br.com.alura.agenda_alura.modelo.Aluno;
+
 public class FormActivity extends AppCompatActivity {
+
+    private FormularioHelper helper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
+
+        helper = new FormularioHelper(this);
 
         Spinner spinnerGenero = (Spinner) findViewById(R.id.spinnerGenero);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.arrayGenero, R.layout.support_simple_spinner_dropdown_item);
@@ -36,7 +43,9 @@ public class FormActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
             case R.id.menu_formulario_ok:
-                Toast.makeText(FormActivity.this, "Salvo!", Toast.LENGTH_SHORT).show();
+                Aluno newAluno = helper.getAluno();
+
+                Toast.makeText(FormActivity.this, newAluno.getNome() + " salvo!", Toast.LENGTH_SHORT).show();
                 finish();
                 break;
         }
