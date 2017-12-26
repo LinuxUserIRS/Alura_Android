@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import br.com.alura.agenda_alura.DAO.AlunoDAO;
 import br.com.alura.agenda_alura.modelo.Aluno;
 
 public class FormActivity extends AppCompatActivity {
@@ -44,7 +45,9 @@ public class FormActivity extends AppCompatActivity {
         switch(item.getItemId()){
             case R.id.menu_formulario_ok:
                 Aluno newAluno = helper.getAluno();
-
+                AlunoDAO DAO = new AlunoDAO(this);
+                DAO.insert(newAluno);
+                DAO.close();
                 Toast.makeText(FormActivity.this, newAluno.getNome() + " salvo!", Toast.LENGTH_SHORT).show();
                 finish();
                 break;
