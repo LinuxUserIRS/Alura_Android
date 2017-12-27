@@ -52,7 +52,12 @@ public class FormActivity extends AppCompatActivity {
             case R.id.menu_formulario_ok:
                 Aluno newAluno = helper.getAluno();
                 AlunoDAO DAO = new AlunoDAO(this);
-                DAO.insert(newAluno);
+                if(newAluno.getId() != null){
+                    DAO.update(newAluno);
+                }else{
+                    DAO.insert(newAluno);
+                }
+
                 DAO.close();
                 Toast.makeText(FormActivity.this, newAluno.getNome() + " salvo!", Toast.LENGTH_SHORT).show();
                 finish();
