@@ -24,8 +24,14 @@ public class FormActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
-
         helper = new FormularioHelper(this);
+        Intent intentOrigem = getIntent();
+        Aluno aluno = (Aluno) intentOrigem.getSerializableExtra("aluno");
+        if(aluno != null){
+            helper.preencheForm(aluno);
+        }
+
+
 
         Spinner spinnerGenero = (Spinner) findViewById(R.id.spinnerGenero);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.arrayGenero, R.layout.support_simple_spinner_dropdown_item);
